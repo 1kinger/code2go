@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body onload="go(),myFunction()" style="height:110%;overflow:hidden;" >
+
+
+
+
+<script>
+function myFunction() {
+  var txt;
+  var person = prompt("Please enter your name:", "Harry Potter");
+  if (person == null || person == "") {
+    txt = "User cancelled the prompt.";
+  } else {
+    txt = "Hello " + person + "! How are you today?";
+  }
+  
+}
+</script>
+
+
+
+
+
+
+
+<script>
+function go(){
+var x =screen.height;
+var h = x - Math.round( x/20 ) ;
+document.getElementById("ifame").style.height=h+"px";
+}
+</script>
+<div id="ale"  >
+<iframe width="100%" frameborder="0"  id="ifame" class="ifame" src="https://developers-dot-devsite-v2-prod.appspot.com/blockly/blockly-demo/blockly-demo"></iframe>
+
+
+</div>
+</body>
+</html>
