@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="./cS.css">
+<link rel="stylesheet" href="cS.css">
+<!--
 
-<link rel="stylesheet" href="./aa.css">
-  
+<link rel="stylesheet" href="aa.css">
+-->
+</head>
 <style>
 .div1SL {
   float: left;
@@ -20,16 +22,13 @@
 }
 
 
-</style>
-
-<style>
-i.sticky {
+.sticky {
   position: -webkit-sticky;
   position: sticky;
   top: 3%;
   padding: 5px;
   
-  border: 2px solid BLACK;
+  border: 2px solid w3-black;
 }
 
 html,body,h1,h2,h3,h4,h5 {font-family: "RobotoDraft", "Roboto", sans-serif}
@@ -45,20 +44,14 @@ html,body,h1,h2,h3,h4,h5 {font-family: "RobotoDraft", "Roboto", sans-serif}
 
   <a onclick=" w3_close()"  class="w3-bar-item w3-button w3-hide-large w3-large">Close  <i class="fa fa-remove"></i></a>
   
- <a  id="myBtn" class="w3-bar-item w3-button w3-red" onclick="qT(),w3_close()"  ><i class="fa fa-hourglass-end w3-margin-right" ></i>APP INSTRUCTION</a>
+ <a  id="myBtn" class="w3-bar-item w3-button w3-red" onclick="qT();w3_close();"  ><i class="fa fa-hourglass-end w3-margin-right" ></i>APP INSTRUCTION</a>
   
-  <a  class="w3-bar-item w3-button w3-dark-grey w3-hover-black w3-left-align"  onclick="qI() , w3_close()" >ABOUT APP <i class="w3-padding fa fa-pencil"></i></a>
+  <a  class="w3-bar-item w3-button w3-dark-grey w3-hover-black w3-left-align"  onclick="qI();w3_close();" >ABOUT APP <i class="w3-padding fa fa-pencil"></i></a>
   
-  <a  class="w3-bar-item w3-button w3-dark-grey w3-hover-black w3-left-align"  onclick="qK(),  w3_close()" >ABOUT author <i class="w3-padding fa fa-pencil"></i></a>
+  <a  class="w3-bar-item w3-button w3-dark-grey w3-hover-black w3-left-align"  onclick="qK();w3_close();" >ABOUT author <i class="w3-padding fa fa-pencil"></i></a>
    
-     <a1 class="w3-bar-item w3-button" onclick="window.open('https://www. 1 .com/')" >
-    <i class="w3-hover-opacity"><a > OFICIAL WEBSITE </a> </i> </a1>
-	
-	
-  <div  class="w3-bar-item w3-button w3-left-align" >
-	  <div id="google_translate_element" ></div> 
-		<div id="BlmyDIV">
-</div>
+     <a class="w3-bar-item w3-button" onclick="window.open(STRurl);" >
+    <i class="w3-hover-opacity"> OFICIAL WEBSITE  </i> </a>
 	
  
  </nav>
@@ -72,9 +65,9 @@ html,body,h1,h2,h3,h4,h5 {font-family: "RobotoDraft", "Roboto", sans-serif}
 
 
 
-    <p style='font-size:50px;'class="w3-button w3-white w3-hide-large w3-xlarge w3-margin-left w3-margin-top  sticky" onclick="w3_open()">&#9776;</p>
+    <p style="font-size:50px;" class="w3-button w3-white w3-hide-large w3-xlarge w3-margin-left w3-margin-top  sticky" onclick="w3_open()">&#9776;</p>
 
-<script>
+<script>var STRurl="htps:///www. 1 omno.com";
 var ov;
 var myv;
 var rD;
@@ -173,7 +166,6 @@ document.getElementById("demoV").innerHTML ="Hmm, it\'s look like you dont have 
 <div class="div2TX">you can found out more about code2go on oficial web site and on your favorite social media. </div>
 <br><br>
 
-
 </div>
 
 	<div id="INF"   style="display:none">
@@ -183,7 +175,7 @@ document.getElementById("demoV").innerHTML ="Hmm, it\'s look like you dont have 
   <h5><i class="fa fa-clock-o"></i> code2go</h5>
   
   <hr>
-  <p>
+  
   
  here is creddits::
  code2go is app by 1kinger with used parts from Blocky 
@@ -205,11 +197,9 @@ but for best user expirience recomendet is open app(code2go) in landscape phone 
  if there is some preoblems, you can reinstal this app  manualy to factory settings in leas than 5 sec.
 </p>
 
- </p>
-  <p>
-  
+ 
 
-  </p>
+
   </div>
 
 
@@ -221,7 +211,7 @@ but for best user expirience recomendet is open app(code2go) in landscape phone 
   <h4><i class="fa fa-clock-o"></i> 1kinger </h4>
   
   <hr>
-  <p> 
+  
   
   author of this app is 1kinger. He is profi full stack web devolpment and others unknowed talents yet. 1kinger is just self declared artistick name of  25 years old boy from europa that have 
 and hobby of full stuck solo web devolpment.And 1kinger is trying to make "some good IT things" as good as can be.
@@ -231,7 +221,6 @@ and hobby of full stuck solo web devolpment.And 1kinger is trying to make "some 
 you can finde more fressh info on oficial web site and on social median cominuty
 </p>
 
-  </p>
   
   </div>
   
@@ -243,90 +232,39 @@ you can finde more fressh info on oficial web site and on social median cominuty
 
  </div>
 
-
 </div>
 
-	
-<script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-}
-</script>
-
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-	
-	
-	
 
 <script>
 var openInbox = document.getElementById("myBtn");
 openInbox.click();
 
-
 var instrrukcijite = document.getElementById("INt");
-
 var avtor = document.getElementById("K1R");
-
 var opis = document.getElementById("INF");
 
 
 function qK(){
-
-instrrukcijite.style.display = "none";
-avtor.style.display = "block";
-opis.style.display = "none";
-}
+instrrukcijite.style="display:none;";
+avtor.style="display:block;";
+opis.style="display:none;";}
 
 function qI(){
+instrrukcijite.style= "display:none;";
+avtor.style="display:none;";
+opis.style="display:block;";}
 
-instrrukcijite.style.display = "none";
-avtor.style.display = "none";
-opis.style.display = "block";
-}
-
-function qT(){
-instrrukcijite.style.display = "block";
-avtor.style.display = "none";
-opis.style.display = "none";
-}
+function qT(){document.getElementById("INt").style="display:block;";
+ document.getElementById("K1R").style="display:none;";
+document.getElementById("INF").style="display:none;";}
 
 function w3_open() {
   document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
+  document.getElementById("myOverlay").style.display = "block";}
 
 function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";
-}
-
-function myFunc(id) {
-  var x = document.getElementById(id);
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show"; 
-    x.previousElementSibling.className += " w3-red";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
- //   x.previousElementSibling.className = 
-    x.previousElementSibling.className.replace(" w3-red", "");
-  }
-}
-
-openMail("Borge")
-function openMail(personName) {
-  var i;
-  var x = document.getElementsByClassName("person");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  x = document.getElementsByClassName("test");
-  for (i = 0; i < x.length; i++) {
-    x[i].className = x[i].className.replace(" w3-light-grey", "");
-  }
-  document.getElementById(personName).style.display = "block";
-  //event.currentTarget.className += " w3-light-grey";
-}
-
+  document.getElementById("myOverlay").style.display = "none";}
 </script>
 
 
