@@ -42,7 +42,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "RobotoDraft", "Roboto", sans-serif}
 <nav class="w3-sidebar w3-bar-block w3-collapse w3-white w3-animate-left w3-card" style="z-index:3;width:320px;" id="mySidebar">
   <a href="javascript:void(0)" class="w3-bar-item w3-button w3-border-bottom w3-large"><img src="./fto/c2gL192.jpg" style="width:60%;"></a>
 
-  <a onclick=" w3_close()"  class="w3-bar-item w3-button w3-hide-large w3-large">Close  <i class="fa fa-remove"></i></a>
+  <a onclick="w3_close();"  class="w3-bar-item w3-button w3-hide-large w3-large">Close  <i class="fa fa-remove"></i></a>
   
  <a  id="myBtn" class="w3-bar-item w3-button w3-red" onclick="qT();w3_close();"  ><i class="fa fa-hourglass-end w3-margin-right" ></i>APP INSTRUCTION</a>
   
@@ -50,7 +50,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "RobotoDraft", "Roboto", sans-serif}
   
   <a  class="w3-bar-item w3-button w3-dark-grey w3-hover-black w3-left-align"  onclick="qK();w3_close();" >ABOUT author <i class="w3-padding fa fa-pencil"></i></a>
    
-     <a class="w3-bar-item w3-button" onclick="window.open(STRurl);" >
+     <a class="w3-bar-item w3-button" onclick="window.open('https://www. OFC .com');" >
     <i class="w3-hover-opacity"> OFICIAL WEBSITE  </i> </a>
 	
  
@@ -67,7 +67,7 @@ html,body,h1,h2,h3,h4,h5 {font-family: "RobotoDraft", "Roboto", sans-serif}
 
     <p style="font-size:50px;" class="w3-button w3-white w3-hide-large w3-xlarge w3-margin-left w3-margin-top  sticky" onclick="w3_open()">&#9776;</p>
 
-<script>var STRurl="https://www.google.com/?gws_rd=ssl";
+<script>
 var ov;
 var myv;
 var rD;
@@ -221,52 +221,57 @@ and hobby of full stuck solo web devolpment.And 1kinger is trying to make "some 
 you can finde more fressh info on oficial web site and on social median cominuty
 </p>
 
-  
-  </div>
-  
- 
+	
+</div></div></div></div>
 
-</div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
 
-
-
- </div>
-
-</div>
-
-
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script>
 var openInbox = document.getElementById("myBtn");
 openInbox.click();
 
+
 var instrrukcijite = document.getElementById("INt");
+
 var avtor = document.getElementById("K1R");
+
 var opis = document.getElementById("INF");
 
 
 function qK(){
+
 instrrukcijite.style="display:none;";
 avtor.style="display:block;";
-opis.style="display:none;";}
+opis.style="display:none;";
+}
 
 function qI(){
-instrrukcijite.style= "display:none;";
-avtor.style="display:none;";
-opis.style="display:block;";}
 
-function qT(){document.getElementById("INt").style="display:block;";
- document.getElementById("K1R").style="display:none;";
-document.getElementById("INF").style="display:none;";}
+instrrukcijite.style="display:none;";
+avtor.style="display:none;";
+opis.style="display:block;";
+}
+
+function qT(){
+document.getElementById("INt").style="display:block;";
+document.getElementById("K1R").style="display:none;";
+document.getElementById("INF").style="display:none;";
+}
 
 function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";}
+  document.getElementById("mySidebar").style="display:block;";
+  document.getElementById("myOverlay").style="display:block;";
+}
 
 function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("myOverlay").style.display = "none";}
-</script>
-
+  document.getElementById("mySidebar").style="display:none;";
+  document.getElementById("myOverlay").style="display:none;";
+}</script>
 
 </body>
 </html> 
